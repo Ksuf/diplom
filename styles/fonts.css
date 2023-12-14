@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Supermolot;
+    src: url("../fonts/Supermolot/Supermolot.otf");
+}
+@font-face {
+    font-family: SupermolotLight;
+    src: url("../fonts/Supermolot/Supermolot\ Light.otf");
+}
+@font-face {
+    font-family: SupermolotLightItalic;
+    src: url("../fonts/Supermolot/Supermolot\ Light\ Italic.otf");
+}
+@font-face {
+    font-family: SupermolotBold;
+    src: url("../fonts/Supermolot/Supermolot\ Bold.otf");
+}
+@font-face {
+    font-family: SupermolotBoldItalic;
+    src: url("../fonts/Supermolot/Supermolot\ Bold\ Italic.otf");
+}
+@font-face {
+    font-family: SupermolotItalic;
+    src: url("../fonts/Supermolot/Supermolot\ Italic.otf");
+}
+@font-face {
+    font-family:  SupermolotLightThin;
+    src: url("../fonts/Supermolot/Supermolot\ Thin\ Italic.otf");
+}
+@font-face {
+    font-family: Bender;
+    src: url("../fonts/Bender/Bender.otf");
+}

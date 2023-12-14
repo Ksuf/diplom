@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">super <span>shop</span></a>
+                </div>
+                <ul>
+                    <li><a href="category.html">категория 1</a></li>
+                    <li><a href="">категория 2</a></li>
+                    <li><a href="">категория 3</a></li>
+                    <li><a href="">категория 4</a></li>
+                </ul>
+                <div class="auth"><a href="login.html">Войти</a></div>
+                <div class="reg"><a href="register.html">Регистрация</a></div>
+                <div class="cart">
+                    <a href="cart.html">
+                        <div class="price"><span>46 945</span> руб.</div>
+                        <div class="count">2 предмета</div>
+                        <div class="icon"></div>
+                    </a>
+                </div>
+            </nav>
+            <h1>Личный кабинет</h1>
+        </div>
+    </header>
+    <main>
+        <div class="white w30">
+            <form action="" class="account">
+                <div class="column">
+                    <h3>Ваши данные</h3>
+                    <div class="row">
+                        <label for="name">Контактное лицо (ФИО):</label>
+                        <input type="text" id="name" placeholder="Сергей">
+                    </div>
+                    <div class="row">
+                        <label for="phone">Контактный телефон</label>
+                        <input type="tel" id="phone" placeholder="+7 916 000-00-00">
+                    </div>
+                    <div class="row">
+                        <label for="email">E-mail адрес</label>
+                        <input type="email" id="email" placeholder="mail@company.ru">
+                    </div>
+
+                    <h3>Адрес доставки</h3>
+                    <div class="row">
+                        <label for="city">Город</label>
+                        <input type="text" id="city" placeholder="Москва">
+                    </div>
+                    <div class="row">
+                        <label for="street">Улица</label>
+                        <input type="text" id="street" placeholder="Название улицы">
+                    </div>
+                    <div class="row house">
+                        <div class="row1">
+                             <label for="house">Дом</label>
+                            <input type="text" id="house" placeholder="10">
+                        </div>
+                        <div class="row2">
+                            <label for="number">Квартира</label>
+                           <input type="text" id="number" placeholder="150">
+                       </div>
+                    </div>
+
+                    <h3>Изменение пароля</h3>
+                    <div class="row">
+                        <label for="password">Введите новый пароль:</label>
+                        <input type="password" id="email" value="12345">
+                    </div>                    
+                    <div class="row">
+                        <label for="password-double">Повторите новый пароль:</label>
+                        <input type="password" id="password-double" value="12345">
+                    </div>
+                    <button type="submit" class="button-red save">Сохранить</button>
+                </div>
+                <div class="orders">
+                    <h3>Ваши заказы</h3>
+                    <div class="row">
+                        <div class="info">
+                            <div class="number">№ 4653</div>
+                            <div class="price">(45 468руб.)</div>
+                            <div class="date">01.01.2015 в 15:54</div>
+                        </div>
+                        <div class="status">Ожидает доставки</div>
+                    </div>    
+                    <div class="row">
+                        <div class="info">
+                            <div class="number">№ 2415</div>
+                            <div class="price">(2 100руб.)</div>
+                            <div class="date">01.01.2015 в 11:10</div>
+                        </div>
+                        <div class="status">Доставлен</div>
+                    </div> 
+                    <div class="row">
+                        <div class="info">
+                            <div class="number">№ 2158</div>
+                            <div class="price">(2 100руб.)</div>
+                            <div class="date">01.01.2015 в 11:10</div>
+                        </div>
+                        <div class="status">Доставлен</div>
+                    </div> 
+                </div>               
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Шаблон для экзаменационного задания. </p>
+            <p> Разработан специально для «Всероссийской Школы Программирования»</p>
+            <p><a href="http://bedev.ru/">http://bedev.ru/</a></p>
+        </div>
+        <button class="top"><a href="">Наверх  &#9650;</a></button>
+    </footer>
+    
+</body>
+</html>
